@@ -95,6 +95,7 @@ td{
 form {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 input,
@@ -106,4 +107,18 @@ textarea {
 #submit {
   display: flex;
   justify-content: flex-end;
+}
+
+button{
+  background-color: aqua;
+}
+
+.bt{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.bouton a{
+  color: green;
+  text-decoration: none;
 }
